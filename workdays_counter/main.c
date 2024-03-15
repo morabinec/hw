@@ -86,7 +86,7 @@ int maxDaysInMonth (int y, int m, int d )
 
 bool isWorkDay ( int y, int m, int d )
 {
-  /* todo */
+
   if (!isValidDate( y, m, d ))
     return false;
 
@@ -104,7 +104,6 @@ bool isWorkDay ( int y, int m, int d )
 TResult countDays ( int y1, int m1, int d1,
                     int y2, int m2, int d2 )
 {
-  /* todo */
 
   TResult r;
   r.m_TotalDays = 0;
